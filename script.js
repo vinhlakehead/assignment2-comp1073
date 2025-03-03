@@ -44,8 +44,7 @@ changeCustomColor();
 function addList() {
     while (imageSelect.options.length > 1) {
         imageSelect.remove(1);
-    // Tip: you might have to check length condition so that the list does not keep growing when clicked
-    // Tip: use createElement and appendChild inside every for loop to add elements to select list from array 
+
 }
 imageArray.forEach((imagePath, index) => {
     const option = document.createElement("option");
